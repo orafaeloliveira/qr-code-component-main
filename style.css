@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   background-color: var(--white);
-  max-width: 320px;
+  width: 320px;
   height: 495px;
   padding: 15px;
   border-radius: 15px;
@@ -50,7 +50,7 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
