@@ -14,10 +14,11 @@ body {
 }
 
 .card {
+  box-sizing: border-box;
   position: absolute;
   background-color: var(--white);
-  width: 290px;
-  height: 465px;
+  max-width: 320px;
+  height: 495px;
   padding: 15px;
   border-radius: 15px;
   top: 50%;
@@ -27,7 +28,7 @@ body {
 }
 
 .photo {
-  max-width: 100%;
+  width: 100%;
   border-radius: 15px;
 }
 
